@@ -1,0 +1,24 @@
+[project]
+name = "scenario-2"
+version = "0.1.0"
+description = "fast mcp integration with fastapi"
+readme = "README.md"
+authors = [
+    { name = "DileepLakshn141", email = "dileeplakshan212@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.162.0",
+    "fastapi-mcp>=0.4.0",
+    "uvicorn[standard]>=0.54.0",
+    "fastmcp>=4.1.6",
+    "asyncio>=4.0.0",
+    "fastmcp-slim[server]>=4.1.6",
+]
+
+[project.scripts]
+scenario-2 = "scenario_2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
