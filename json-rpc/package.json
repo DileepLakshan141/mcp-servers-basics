@@ -1,0 +1,24 @@
+{
+  "name": "@DileepLakshan141/mcp-pr-server",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "mcp-pr-server": "dist/server.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test handler.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

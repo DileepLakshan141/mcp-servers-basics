@@ -1,0 +1,3 @@
+{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"open_draft_pr","arguments":{"title":"No branch"}}}
+{"jsonrpc":"2.0","id":5,"method":"tools/call"}
+{"jsonrpc":"2.0","id":6,"method":"tools/call","params":{"name":"open_draft_pr","arguments":{}}}
